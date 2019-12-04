@@ -40,6 +40,7 @@ The game will be functional on one webpage. To know more about the game and how 
 # Development process and logic
 
 The project took 4 days to develop starting from Saturday 30 November – Tuesday 3 December.
+<br>
 Chronological process:
 
 Day:1
