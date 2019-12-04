@@ -2,7 +2,7 @@
 
 <h1>
   <br>
-  <img src= C:\Users\leena\Documents\sei_10\Projects\Project_1_Connect4\connect4\pic\c4.png >
+  <img src= https://github.com/LeenaYaseen/Project_1_Connect4/blob/master/connect4/pic/c4.png >
 
 </h1>
 
@@ -10,13 +10,13 @@ Connect 4 is a two-player connection game in which the first player will put a p
 For this Project, a 4x4 gameboard was built and functioned using CSS,HTML, and JavaScript.
 
 # List of technologies used
-Hardware:
-•	Laptop with windows OS installed.
-Software:
-•	Gitbash
-•	Visual studio code
-•	Google Chrome
-•	HTML,CSS and JavScript.
+## Hardware:
+-	Laptop with windows OS installed.
+## Software:
+-	Gitbash
+-	Visual studio code
+-	Google Chrome
+-	HTML,CSS and JavScript.
 
 # Wireframes
 Initital webpage design:
@@ -40,22 +40,23 @@ The game will be functional on one webpage. To know more about the game and how 
 # Development process and logic
 
 The project took 4 days to develop starting from Saturday 30 November – Tuesday 3 December.
+<br>
 Chronological process:
 
-Day:1
+## Day:1
 -	Created the webpage using HTML and CSS.
 -	Created 3 separated files of HTML, CSS, and JavaScript.
 -	First attempt to create the board using “grid” functionality on CSS.
 -	Researched about the game functionality and idea and how to construct it on PCs.
 
-Day:2
+## Day:2
 -	Started coding into JavaScript.
--	Divided already created board into “<divs>” and assigned their classes as “<column-1>”, “<column-2>”, “<column-3>”, “<column-4>”.
--	Inside these “<divs>” it has “<box>” class , in which the markers will be filled with.
--	First Attempt into making the markers fall into the last column of the grid using JQuery functions ($(selector).last().addClass()).
+-	Divided already created board into <divs> and assigned their classes as 'column-1', 'column-2', 'column-3', 'column-4'.
+-	Inside these <divs> it has <box> class , in which the markers will be filled with.
+-	First Attempt into making the markers fall into the last column of the grid using JQuery functions '($(selector).last().addClass())'.
 -	Created only one marker (‘yellow’) to test on it.
 
-Day:3
+## Day:3
 -	Unable to stack markers onto each other with the previous code.
 -	Second attempt into making the markers fall into last column using 2D array.
 -	Created a new JavaScript.
@@ -67,10 +68,10 @@ Day:3
 -	Using JQuery, created an event in which if <column> is selected, the marker will be pushed to the last <box> in it.
 -	Repeated process for all 4 columns.
 
-Day:4 (Summary of the process)
+## Day:4 (Summary of the process)
 *Note: that this only applies on 4x4 gameboard.
 -	Created variable 'player' to indicate if its player1 or player 2.
--	Created variables 'i','j','k','l' and initialized them with “0” to use for iteration of each column.
+-	Created variables 'i','j','k','l' and initialized them with '0' to use for iteration of each column.
 -	Created variable 'columnID' to store the ID of the <column> from its class.
 -	Created a '$(selector).hover()' function to indicate which <column> the user is on.
 -	Created a '$(selector).click()' function to able user to add the marker inside the box.
@@ -78,15 +79,15 @@ Day:4 (Summary of the process)
 -	Once the user clicks, the marker will be added into the last element. (Ex. Column = 0 and i =0. Which indicates it’s the last element on the board as per the ‘Id’)
 -	Repeated the process for all columns as well as same process for player 2. 
 -	Created a function to reset the game when button is clicked using function 'location.load()' on JQuery.
--	Created 3 functions to check for possible winnings situations (Horizontal(), Vertical(), and Diagonal()).
+-	Created 3 functions to check for possible winnings situations ( 'Horizontal()', 'Vertical()', and 'Diagonal()').
 -	Modified styles and effects on the website.
 
 # List unsolved problems and future plans
 
-Unsolved Problems:
+## Unsolved Problems:
 -	Optimizing the code to make it as minimum as possible.
 
-Future additions:
+## Future additions:
 -	Create a player vs AI computer.
 -	Add a homepage for the game.
 -	Add sound effects for buttons.
@@ -126,6 +127,8 @@ $("[class*=column-]"). click(function()
 ```
 
 In general, JQuery functions where very useful for me. I was able to interact with the websites efficiently only by using these events. The `click()` and `attr()` function was the most important. I retrieved the values of the `Id` of the class <column> then saved it into a variable. Afterwards, this value has been used in winning functions, click and others.
+  
+## By Leena
 
 
 
