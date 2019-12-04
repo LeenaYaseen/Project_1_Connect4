@@ -1,10 +1,13 @@
 # Connect 4
 
 <h1>
+<img src=logo-aa.png>
+</h1>
+<h2 align = center>
   <br>
   <img src= https://github.com/LeenaYaseen/Project_1_Connect4/blob/master/connect4/pic/c4.png >
 
-</h1>
+</h2>
 
 Connect 4 is a two-player connection game in which the first player will put a piece into the board that will fall to the lowest level. Then the second player will put their own piece as the same method. The winner of the game is determined if a player successfully connected 4 circles either horizontally, vertically, or diagonally.
 For this Project, a 4x4 gameboard was built and functioned using CSS,HTML, and JavaScript.
@@ -21,7 +24,7 @@ For this Project, a 4x4 gameboard was built and functioned using CSS,HTML, and J
 # Wireframes
 Initital webpage design:
 <h2>
-<img src="#"></img>
+<img src="wireframe.png"></img>
 </h2>
 
 
@@ -127,6 +130,10 @@ $("[class*=column-]"). click(function()
 ```
 
 In general, JQuery functions where very useful for me. I was able to interact with the websites efficiently only by using these events. The `click()` and `attr()` function was the most important. I retrieved the values of the `Id` of the class <column> then saved it into a variable. Afterwards, this value has been used in winning functions, click and others.
+
+<h2 align=center>
+<img src = connect4.gif>
+</h2>
   
 ## By Leena
 

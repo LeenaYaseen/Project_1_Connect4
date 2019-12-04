@@ -1,6 +1,7 @@
 *
 {
     resize:both;
+    margin:0px auto;
     
     
 }
@@ -12,7 +13,11 @@ header
     background-color:#32bbcd;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body
+{
+    margin:0px auto;
 
+}
 h1
 {
     font-size:50px;
@@ -86,8 +91,11 @@ footer
 }
 footer > p
 {
-    
+
+    display:flex;
     color:white;
+    font-size:20px;
+    justify-content: right;
 }
 .yellow
 {
@@ -99,20 +107,18 @@ footer > p
 }
 .cyan
 {
-    background-color:cyan;
-    
+    background-color: darkcyan;
 }
+    
+
 
 #board
 {
     background-color:darkblue;
     display:flex;
     justify-content: center;
-    margin: 0px 400px
+    margin: 0px 480px
     
-
-    
-
 }
 .box
 {
@@ -122,15 +128,75 @@ footer > p
     background-color:white;
     border-radius:50%;
     margin:10px;
+    border:darkblue solid 3px;
 }
 
 .column-1 , .column-2 ,.column-3 ,.column-4 
 {
     display:flex;
     flex-direction: column-reverse;
+    
+
   
     
 }
+#players
+{
+    display:flex;
+    justify-content: space-around;
+    font-size: 20px;
+    
+    
+}
+#p1
+{
+    border:solid;
+    border-radius: 30%;
+    padding:20px;
+    animation:blinkplayer1 2s infinite;
+    
+}
+   
+#p2
+{
+    border:solid;
+    padding:20px;
+    border-radius: 30%;
+    animation:blinkplayer2 2s infinite;
+    
+   
+}
+@keyframes blinkplayer1
+{
+    0%{     color: #e6b800;    }
+    50%{    color: transparent; }
+    100%{   color: #e6b800;    }
+}
+@keyframes blinkplayer2
+{
+    0%{     color: darkred;    }
+    50%{    color: transparent; }
+    100%{   color: darkred;   }
+}
+.winCount
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+  
+  
+
+
+
+
+
+
+
 
 
 
