@@ -51,8 +51,8 @@ Day:1
 
 Day:2
 -	Started coding into JavaScript.
--	Divided already created board into “<divs>” and assigned their classes as “<column-1>”, “<column-2>”, “<column-3>”, “<column-4>”.
--	Inside these “<divs>” it has “<box>” class , in which the markers will be filled with.
+-	Divided already created board into <divs> and assigned their classes as <column-1>, <column-2>, <column-3>, <column-4>.
+-	Inside these <divs> it has <box> class , in which the markers will be filled with.
 -	First Attempt into making the markers fall into the last column of the grid using JQuery functions '($(selector).last().addClass())'.
 -	Created only one marker (‘yellow’) to test on it.
 
@@ -71,7 +71,7 @@ Day:3
 Day:4 (Summary of the process)
 *Note: that this only applies on 4x4 gameboard.
 -	Created variable 'player' to indicate if its player1 or player 2.
--	Created variables i,j,k,l and initialized them with 0 to use for iteration of each column.
+-	Created variables 'i','j','k','l' and initialized them with '0' to use for iteration of each column.
 -	Created variable 'columnID' to store the ID of the <column> from its class.
 -	Created a '$(selector).hover()' function to indicate which <column> the user is on.
 -	Created a '$(selector).click()' function to able user to add the marker inside the box.
