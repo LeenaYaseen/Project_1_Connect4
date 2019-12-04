@@ -45,6 +45,7 @@ $(document).ready(function()
                 'It is a tie.'
                 
               )
+             $("[class*=column-").off('click');
         }
         //console.log(count) // Check the count
         
