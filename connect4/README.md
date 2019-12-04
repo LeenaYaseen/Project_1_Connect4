@@ -127,6 +127,8 @@ $("[class*=column-]"). click(function()
 ```
 
 In general, JQuery functions where very useful for me. I was able to interact with the websites efficiently only by using these events. The `click()` and `attr()` function was the most important. I retrieved the values of the `Id` of the class <column> then saved it into a variable. Afterwards, this value has been used in winning functions, click and others.
+  
+## By Leena
 
 
 
