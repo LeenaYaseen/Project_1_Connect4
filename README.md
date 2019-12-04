@@ -1,6 +1,6 @@
 # Connect 4
 
-<h1>
+<h1 align = center>
 <img src= https://github.com/LeenaYaseen/connect4/blob/master/pic/logo-aa.png>
 </h1>
 <h2 align = center>
