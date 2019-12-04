@@ -2,7 +2,7 @@
 
 <h1>
   <br>
-  <img src= C:\Users\leena\Documents\sei_10\Projects\Project_1_Connect4\connect4\pic\c4.png >
+  <img src= https://github.com/LeenaYaseen/Project_1_Connect4/blob/master/connect4/pic/c4.png >
 
 </h1>
 
@@ -11,12 +11,12 @@ For this Project, a 4x4 gameboard was built and functioned using CSS,HTML, and J
 
 # List of technologies used
 Hardware:
-•	Laptop with windows OS installed.
+-	Laptop with windows OS installed.
 Software:
-•	Gitbash
-•	Visual studio code
-•	Google Chrome
-•	HTML,CSS and JavScript.
+-	Gitbash
+-	Visual studio code
+-	Google Chrome
+-	HTML,CSS and JavScript.
 
 # Wireframes
 Initital webpage design:
