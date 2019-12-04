@@ -1,7 +1,7 @@
 # Connect 4
 
 <h1>
-<img src=https://github.com/LeenaYaseen/Project_1_Connect4/tree/master/connect4/pic/logo-aa.png>
+<img src= https://github.com/LeenaYaseen/Project_1_Connect4/blob/master/connect4/pic/logo-aa.png>
 </h1>
 <h2 align = center>
   <br>
@@ -24,7 +24,7 @@ For this Project, a 4x4 gameboard was built and functioned using CSS,HTML, and J
 # Wireframes
 Initital webpage design:
 <h2>
-<img src=https://github.com/LeenaYaseen/Project_1_Connect4/tree/master/connect4/pic/wireframe.png>
+<img src=https://github.com/LeenaYaseen/Project_1_Connect4/blob/master/connect4/pic/wireframe.png>
 </h2>
 
 
@@ -132,7 +132,7 @@ $("[class*=column-]"). click(function()
 In general, JQuery functions where very useful for me. I was able to interact with the websites efficiently only by using these events. The `click()` and `attr()` function was the most important. I retrieved the values of the `Id` of the class <column> then saved it into a variable. Afterwards, this value has been used in winning functions, click and others.
 
 <h2 align=center>
-<img src = https://github.com/LeenaYaseen/Project_1_Connect4/tree/master/connect4/pic/connect4.gif>
+<img src = https://github.com/LeenaYaseen/Project_1_Connect4/blob/master/connect4/pic/connect4.gif>
 </h2>
   
 ## By Leena
