@@ -10,9 +10,9 @@ Connect 4 is a two-player connection game in which the first player will put a p
 For this Project, a 4x4 gameboard was built and functioned using CSS,HTML, and JavaScript.
 
 # List of technologies used
-Hardware:
+## Hardware:
 -	Laptop with windows OS installed.
-Software:
+## Software:
 -	Gitbash
 -	Visual studio code
 -	Google Chrome
@@ -43,20 +43,20 @@ The project took 4 days to develop starting from Saturday 30 November – Tuesda
 <br>
 Chronological process:
 
-Day:1
+## Day:1
 -	Created the webpage using HTML and CSS.
 -	Created 3 separated files of HTML, CSS, and JavaScript.
 -	First attempt to create the board using “grid” functionality on CSS.
 -	Researched about the game functionality and idea and how to construct it on PCs.
 
-Day:2
+## Day:2
 -	Started coding into JavaScript.
--	Divided already created board into <divs> and assigned their classes as <column-1>, <column-2>, <column-3>, <column-4>.
+-	Divided already created board into <divs> and assigned their classes as 'column-1', 'column-2', 'column-3', 'column-4'.
 -	Inside these <divs> it has <box> class , in which the markers will be filled with.
 -	First Attempt into making the markers fall into the last column of the grid using JQuery functions '($(selector).last().addClass())'.
 -	Created only one marker (‘yellow’) to test on it.
 
-Day:3
+## Day:3
 -	Unable to stack markers onto each other with the previous code.
 -	Second attempt into making the markers fall into last column using 2D array.
 -	Created a new JavaScript.
@@ -68,7 +68,7 @@ Day:3
 -	Using JQuery, created an event in which if <column> is selected, the marker will be pushed to the last <box> in it.
 -	Repeated process for all 4 columns.
 
-Day:4 (Summary of the process)
+## Day:4 (Summary of the process)
 *Note: that this only applies on 4x4 gameboard.
 -	Created variable 'player' to indicate if its player1 or player 2.
 -	Created variables 'i','j','k','l' and initialized them with '0' to use for iteration of each column.
@@ -84,10 +84,10 @@ Day:4 (Summary of the process)
 
 # List unsolved problems and future plans
 
-Unsolved Problems:
+## Unsolved Problems:
 -	Optimizing the code to make it as minimum as possible.
 
-Future additions:
+## Future additions:
 -	Create a player vs AI computer.
 -	Add a homepage for the game.
 -	Add sound effects for buttons.
