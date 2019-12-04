@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *
 {
     resize:both;
@@ -200,3 +201,141 @@ footer > p
 
 
 
+=======
+*
+{
+    resize:both;
+    
+    
+}
+header
+{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    background-color:#32bbcd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1
+{
+    font-size:50px;
+    color:white;
+
+}
+u
+{
+    color:#042661;
+
+}
+nav
+{
+    
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    display:flex;
+    background-color:#32bbcd;
+    height:30px;
+    justify-content: space-evenly;
+
+}
+
+a
+{
+   
+    text-decoration:none;
+    color:white;
+    align-self: flex-end;
+
+}
+a:hover
+{
+    background-color:#042661;
+    padding:10px 0px;
+    transition:0.8s;
+    
+    
+
+}
+button
+{
+    display:flex;
+    background-color:#32bbcd;
+    border: none;
+    padding: 0px 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-self: flex-end;
+
+}
+button:hover
+{
+    background-color:#042661;
+    padding:10px;
+    transition:0.8s;
+    
+    
+}
+footer
+
+{
+    display:flex;
+    align-content: flex-end;
+    background-color:#042661;
+    padding:50px 0px;
+    margin:70px 0px 0px;
+   
+}
+footer > p
+{
+    
+    color:white;
+}
+.yellow
+{
+    background-color:yellow;
+}
+.red
+{
+    background-color:red;
+}
+.cyan
+{
+    background-color:cyan;
+    
+}
+
+#board
+{
+    background-color:darkblue;
+    display:flex;
+    justify-content: center;
+    margin: 0px 400px
+    
+
+    
+
+}
+.box
+{
+   
+    width:100px;
+    height:100px;
+    background-color:white;
+    border-radius:50%;
+    margin:10px;
+}
+
+.column-1 , .column-2 ,.column-3 ,.column-4 
+{
+    display:flex;
+    flex-direction: column-reverse;
+  
+    
+}
+
+
+
+>>>>>>> d20dca3e8feeef63d8e820689d242bc0a3b12944
